@@ -21,6 +21,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+.tox
 
 # Installer logs
 pip-log.txt
