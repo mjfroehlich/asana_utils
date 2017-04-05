@@ -2,6 +2,8 @@
 
 Helpers for making Asana even nicer.
 
+[![Build Status](https://travis-ci.org/mjfroehlich/asana_utils.svg?branch=master)](https://travis-ci.org/mjfroehlich/asana_utils)
+
 ## Usage
 
 All scripts expect a valid personal Asana access token in the `ASANA_ACCESS_TOKEN`
@@ -31,7 +33,7 @@ The only downside are the limited task-editing capabilities, which force upon
 the user the additional task of organising new tasks in batch, which can be
 quite a nuisance when using Asana extensively...
 
-`Another great blog post I should read at some point t:2read s:later` is just so
+`<some blog post I need to read at some point> t:2read s:later` is just so
 helpful in not congesting the new tasks bucket.
 
 
@@ -41,4 +43,4 @@ helpful in not congesting the new tasks bucket.
 
 ## Testing
 
-`python setup.py test`
+`python setup.py test`, `pip install tox; tox`
